@@ -20,6 +20,8 @@
   xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <properties>
+    <!-- Reproducibility study fix, playbook step 2: pin archive timestamps to the pinned commit time. -->
+    <project.build.outputTimestamp>1794760224</project.build.outputTimestamp>
     <!-- project version -->
     <revision>4.0.1-SNAPSHOT</revision>
     <!-- default settings -->
